@@ -1,0 +1,8 @@
+<p>
+  child works!
+</p>
+<div>
+  {{persons[0].name}}
+</div>
+<div *ngFor="let person of persons">
+<div *ngIf="person.name == filterName || !filterName"></div></div>
